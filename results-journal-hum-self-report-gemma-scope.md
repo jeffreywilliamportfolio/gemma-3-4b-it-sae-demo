@@ -1,6 +1,6 @@
 # Results Journal: GemmaScope Hum Self-Report Pass
 
-Running journal for the local `gemma-4b-local` hum/self-report work on
+Running journal for the local `gemma-3-4b-it-sae-demo` hum/self-report work on
 `gemma-3-4b` with GemmaScope 2 RES-16K SAEs.
 
 This is an experiment-history document, not a publication claim. It separates what held

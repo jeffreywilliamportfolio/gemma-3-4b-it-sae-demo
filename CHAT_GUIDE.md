@@ -1,4 +1,4 @@
-# chat_steer.py — Live Steering Chat Guide
+# chat_steer.py - Live Steering Chat Guide
 
 Interactive terminal chat with gemma-3-4b-it where you can dim, boost, and inject
 GemmaScope SAE features mid-conversation and watch the behavior change in real time.
@@ -11,7 +11,7 @@ the short version.
 ## Start
 
 ```bash
-cd /Volumes/ExternalSSD/gemma-4b-local
+cd gemma-3-4b-it-sae-demo
 python3 chat_steer.py
 ```
 

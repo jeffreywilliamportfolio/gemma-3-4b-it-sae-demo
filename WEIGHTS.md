@@ -1,8 +1,8 @@
 # Weight Setup
 
-The repo does not commit model weights, SAE weights, GGUFs, or tensor capture
-files. It tracks the exact source repos, pinned revisions, expected paths, and a
-download script.
+This repo does not commit model weights, SAE weights, GGUFs, or tensor capture
+files. Clone the repo, then run one script to download the required Hugging Face
+assets into the expected local paths.
 
 This keeps normal git usable without Git LFS while still making the project
 reproducible for someone with enough local GPU/unified-memory headroom.
@@ -42,12 +42,15 @@ resid_post/layer_22_width_16k_l0_medium
 resid_post/layer_29_width_16k_l0_medium
 ```
 
-## Download
+## Simple Download
 
-Install Python dependencies:
+From a fresh clone:
 
 ```bash
+git clone https://github.com/jeffreywilliamportfolio/gemma-3-4b-it-sae-demo.git
+cd gemma-3-4b-it-sae-demo
 python3 -m pip install -r requirements.txt
+scripts/download_weights.sh
 ```
 
 If needed, create `.env` from `.env.example` and set `HF_TOKEN`. Do not commit
@@ -55,12 +58,6 @@ If needed, create `.env` from `.env.example` and set `HF_TOKEN`. Do not commit
 
 Gemma is gated on Hugging Face. Log in and accept the model terms for
 `google/gemma-3-4b-it` before downloading.
-
-Then run:
-
-```bash
-scripts/download_weights.sh
-```
 
 ## Expected Layout
 

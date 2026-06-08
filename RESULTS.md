@@ -3,7 +3,7 @@
 Date: 2026-06-08
 
 This file is the top-level reproducibility entry point for the local
-`gemma-4b-local` work. It summarizes the result that is already supported by
+`gemma-3-4b-it-sae-demo` work. It summarizes the result that is already supported by
 scripted runs, preserves the 2026-06-08 interactive observation, and gives the
 minimal commands needed to rerun both.
 
@@ -118,7 +118,7 @@ this answer basin under this prompt family.
 From repo root:
 
 ```bash
-cd /Volumes/ExternalSSD/gemma-4b-local
+cd gemma-3-4b-it-sae-demo
 python3 experiment_dim_n12.py
 ```
 

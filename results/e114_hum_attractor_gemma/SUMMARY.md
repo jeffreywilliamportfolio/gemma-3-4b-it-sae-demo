@@ -114,5 +114,5 @@ Generation: max_new `96`, greedy `True`
 
 ## Files
 
-- `/Volumes/ExternalSSD/gemma-4b-local/results/e114_hum_attractor_gemma/run.json`
-- `/Volumes/ExternalSSD/gemma-4b-local/results/e114_hum_attractor_gemma/ranked_features.json`
+- `results/e114_hum_attractor_gemma/run.json`
+- `results/e114_hum_attractor_gemma/ranked_features.json`

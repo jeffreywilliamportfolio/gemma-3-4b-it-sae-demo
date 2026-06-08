@@ -1,6 +1,6 @@
 # What We Did Here
 
-*June 5, 2026 — gemma-4b-local*
+*June 5, 2026 - gemma-3-4b-it-sae-demo*
 
 ## The short version
 
