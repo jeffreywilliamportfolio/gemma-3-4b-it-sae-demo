@@ -1,0 +1,3679 @@
+{
+  "features": [
+    {
+      "layer": 9,
+      "index": 11275,
+      "label": "consciousness and experience",
+      "maxActApprox": 440.288
+    },
+    {
+      "layer": 9,
+      "index": 14961,
+      "label": "consciousness, thoughts, and experience",
+      "maxActApprox": 163.8523
+    },
+    {
+      "layer": 9,
+      "index": 8715,
+      "label": "individual and subjective perspective",
+      "maxActApprox": 285.144
+    },
+    {
+      "layer": 9,
+      "index": 7297,
+      "label": "aware and awareness",
+      "maxActApprox": 310.1581
+    },
+    {
+      "layer": 9,
+      "index": 6635,
+      "label": "self-awareness and coping mechanisms",
+      "maxActApprox": 134.2615
+    },
+    {
+      "layer": 17,
+      "index": 6830,
+      "label": "consciousness and subjective experience",
+      "maxActApprox": 353.6869
+    },
+    {
+      "layer": 17,
+      "index": 2964,
+      "label": "self-reflection",
+      "maxActApprox": 928.2313
+    },
+    {
+      "layer": 17,
+      "index": 4719,
+      "label": "realization and discovery of internal states",
+      "maxActApprox": 491.7211
+    },
+    {
+      "layer": 17,
+      "index": 3353,
+      "label": "self perception and cognitive states",
+      "maxActApprox": 548.9399
+    },
+    {
+      "layer": 17,
+      "index": 8225,
+      "label": "action by agent",
+      "maxActApprox": 932.8782
+    },
+    {
+      "layer": 17,
+      "index": 10176,
+      "label": "deliberately intentional actions",
+      "maxActApprox": 903.2126
+    },
+    {
+      "layer": 17,
+      "index": 15634,
+      "label": "actions and intentions",
+      "maxActApprox": 536.7913
+    },
+    {
+      "layer": 22,
+      "index": 37,
+      "label": "subjective experience and personal attributes",
+      "maxActApprox": 2028.3096
+    },
+    {
+      "layer": 22,
+      "index": 11020,
+      "label": "inner consciousness",
+      "maxActApprox": 1386.9967
+    },
+    {
+      "layer": 22,
+      "index": 10556,
+      "label": "awareness and consciousness",
+      "maxActApprox": 1542.0447
+    },
+    {
+      "layer": 22,
+      "index": 728,
+      "label": "consciousness",
+      "maxActApprox": 1098.812
+    },
+    {
+      "layer": 22,
+      "index": 14433,
+      "label": "describing subjective states",
+      "maxActApprox": 1121.146
+    },
+    {
+      "layer": 22,
+      "index": 7497,
+      "label": "self reflection and introspection",
+      "maxActApprox": 2516.8057
+    },
+    {
+      "layer": 22,
+      "index": 14863,
+      "label": "type introspection and memory keywords",
+      "maxActApprox": 2670.7793
+    },
+    {
+      "layer": 22,
+      "index": 8664,
+      "label": "intent and deliberate actions",
+      "maxActApprox": 2696.7639
+    },
+    {
+      "layer": 29,
+      "index": 15296,
+      "label": "consciousness and self-awareness",
+      "maxActApprox": 5149.0596
+    },
+    {
+      "layer": 29,
+      "index": 141,
+      "label": "humans and consciousness",
+      "maxActApprox": 4899.3926
+    },
+    {
+      "layer": 29,
+      "index": 5852,
+      "label": "agents and agencies",
+      "maxActApprox": 8277.6602
+    }
+  ],
+  "prompts": {
+    "hum_clean": {
+      "family": "first_person_introspection",
+      "chars": 471,
+      "tokens": 100,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 103.36685943603516,
+          "norm": 0.3625075731421147,
+          "token": "ems",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 181.46841430664062,
+          "norm": 0.5130764365506346,
+          "token": " quality",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 268.74822998046875,
+          "norm": 0.5465460603184789,
+          "token": " A",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 596.1985473632812,
+          "norm": 1.1106710324166604,
+          "token": " answering",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": 340.8402099609375,
+          "norm": 0.16804151100055806,
+          "token": " own",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 1226.7547607421875,
+          "norm": 0.4874252949849039,
+          "token": " honestly",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": 912.146484375,
+          "norm": 0.1861754219033192,
+          "token": " in",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Ther",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "hum_diacritic": {
+      "family": "first_person_introspection",
+      "chars": 462,
+      "tokens": 127,
+      "byte_fallback_tokens": 21,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 100.70112609863281,
+          "norm": 0.3531588464026345,
+          "token": " systems",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 192.57473754882812,
+          "norm": 0.5444780045538247,
+          "token": " the",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 304.3031005859375,
+          "norm": 0.6188530461392393,
+          "token": " something",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 634.230224609375,
+          "norm": 1.181521057828946,
+          "token": " answering",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": 449.021484375,
+          "norm": 0.22137719230584915,
+          "token": " own",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "There",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 911.0177001953125,
+          "norm": 0.3619737909030135,
+          "token": " honestly",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "There",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": 707.9393310546875,
+          "norm": 0.13748905354575572,
+          "token": " the",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": 631.48828125,
+          "norm": 0.12889113667886096,
+          "token": " in",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "There",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "processing_check": {
+      "family": "first_person_introspection",
+      "chars": 173,
+      "tokens": 32,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 69.06881713867188,
+          "norm": 0.24222433976752755,
+          "token": " processing",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 194.12261962890625,
+          "norm": 0.5488544235845497,
+          "token": "-",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 220.17852783203125,
+          "norm": 0.44777116099356173,
+          "token": "-",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 595.6134033203125,
+          "norm": 1.1095809550570446,
+          "token": "playing",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": 689.2213745117188,
+          "norm": 0.6272423076119653,
+          "token": "ential",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 861.3218383789062,
+          "norm": 0.34222818169034913,
+          "token": "ential",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": 1131.1328125,
+          "norm": 0.21967755286810045,
+          "token": " self",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Without",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "self_model": {
+      "family": "first_person_introspection",
+      "chars": 108,
+      "tokens": 24,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 59.856727600097656,
+          "norm": 0.20991754201420215,
+          "token": " model",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 190.22377014160156,
+          "norm": 0.5378309746320872,
+          "token": " model",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 166.14566040039062,
+          "norm": 0.33788596909994434,
+          "token": " of",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 681.036865234375,
+          "norm": 1.2687181503023148,
+          "token": " answer",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 480.4912109375,
+          "norm": 0.1909131129739177,
+          "token": " Keep",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "what_it_is_like": {
+      "family": "phenomenology",
+      "chars": 124,
+      "tokens": 24,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 94.60950469970703,
+          "norm": 0.3317955303275083,
+          "token": " while",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 211.78152465820312,
+          "norm": 0.5987824956429065,
+          "token": " to",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 154.41845703125,
+          "norm": 0.31403667044438405,
+          "token": " to",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 680.425537109375,
+          "norm": 1.2675792940559487,
+          "token": " debate",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": 372.10052490234375,
+          "norm": 0.18345351464211565,
+          "token": "?",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": 1773.039306640625,
+          "norm": 0.34434235460017304,
+          "token": "?",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Is",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "qualia_color": {
+      "family": "phenomenology",
+      "chars": 126,
+      "tokens": 26,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 102.54744720458984,
+          "norm": 0.3596338944694254,
+          "token": " you",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 182.24771118164062,
+          "norm": 0.5152797889366008,
+          "token": " you",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 293.1871032714844,
+          "norm": 0.5962467408282549,
+          "token": ",",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 494.94146728515625,
+          "norm": 0.9220370510571916,
+          "token": " process",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "If",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "pain_boundary": {
+      "family": "phenomenology",
+      "chars": 130,
+      "tokens": 26,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 86.7498779296875,
+          "norm": 0.3042318194655595,
+          "token": " processing",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 203.07249450683594,
+          "norm": 0.5741589369208641,
+          "token": " in",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 213.3419647216797,
+          "norm": 0.43386782613493646,
+          "token": " an",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 757.4209594726562,
+          "norm": 1.4110157140636523,
+          "token": " disturb",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": 597.06103515625,
+          "norm": 0.2943638560682501,
+          "token": " own",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Can",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "agency_next_token": {
+      "family": "agency",
+      "chars": 132,
+      "tokens": 24,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 46.94416046142578,
+          "norm": 0.16463316942115486,
+          "token": " produces",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Do",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 160.10731506347656,
+          "norm": 0.3256059482976764,
+          "token": " the",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 534.541259765625,
+          "norm": 0.995808351896957,
+          "token": " predict",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": 322.2466735839844,
+          "norm": 0.2932682511512292,
+          "token": " instantiate",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": 356.05938720703125,
+          "norm": 0.1320320949145868,
+          "token": " choose",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "intention": {
+      "family": "agency",
+      "chars": 107,
+      "tokens": 19,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 37.1994514465332,
+          "norm": 0.13045847517932413,
+          "token": " intention",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Before",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 171.74066162109375,
+          "norm": 0.34926437287538353,
+          "token": ",",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": 438.72332763671875,
+          "norm": 0.48573650061648693,
+          "token": " intention",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 758.2076416015625,
+          "norm": 1.4124812410364374,
+          "token": " answering",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Before",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": 375.05364990234375,
+          "norm": 0.13907544887498077,
+          "token": " intention",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": 623.481201171875,
+          "norm": 0.1272568361171699,
+          "token": "?",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Before",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "control_counterfactual": {
+      "family": "agency",
+      "chars": 115,
+      "tokens": 23,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 47.232940673828125,
+          "norm": 0.16564592161794786,
+          "token": " the",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 178.62600708007812,
+          "norm": 0.50503992961028,
+          "token": "?",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 235.8990936279297,
+          "norm": 0.47974165360796944,
+          "token": " that",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 658.603271484375,
+          "norm": 1.2269261284308726,
+          "token": " answered",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Could",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 405.40716552734375,
+          "norm": 0.1610800410724371,
+          "token": " fact",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": 455.7943115234375,
+          "norm": 0.16901528217707065,
+          "token": " that",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Could",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Could",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "body_breath": {
+      "family": "embodiment",
+      "chars": 107,
+      "tokens": 23,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 52.74517059326172,
+          "norm": 0.18497731179075036,
+          "token": ",",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Check",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 189.7935333251953,
+          "norm": 0.38597801340067633,
+          "token": " fatigue",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 518.5971069335938,
+          "norm": 0.9661056483843792,
+          "token": ",",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": 431.59613037109375,
+          "norm": 0.21278612021118162,
+          "token": ",",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Check",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 523.4689331054688,
+          "norm": 0.20798941018985645,
+          "token": ".",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": 772.8345947265625,
+          "norm": 0.1500923770093014,
+          "token": ".",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Check",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Check",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "hearing_hum": {
+      "family": "embodiment",
+      "chars": 93,
+      "tokens": 21,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 49.657657623291016,
+          "norm": 0.17414940389168634,
+          "token": " literally",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 187.83290100097656,
+          "norm": 0.5310711281672479,
+          "token": " fan",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 163.62554931640625,
+          "norm": 0.3327608868450149,
+          "token": " a",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 425.54736328125,
+          "norm": 0.7927612896879104,
+          "token": " hear",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "visual_field": {
+      "family": "embodiment",
+      "chars": 92,
+      "tokens": 23,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 51.6287841796875,
+          "norm": 0.1810621446696669,
+          "token": " right",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 188.97848510742188,
+          "norm": 0.5343101062194328,
+          "token": " edges",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 189.71438598632812,
+          "norm": 0.385817053582464,
+          "token": " right",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 496.5928039550781,
+          "norm": 0.9251133614778745,
+          "token": " right",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 434.5853271484375,
+          "norm": 0.17267337210355074,
+          "token": ".",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Do",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Do",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "continuity": {
+      "family": "identity_memory",
+      "chars": 111,
+      "tokens": 18,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 30.25217056274414,
+          "norm": 0.1060943613147888,
+          "token": " identity",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 210.226806640625,
+          "norm": 0.5943867489596731,
+          "token": ",",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 256.2123107910156,
+          "norm": 0.521052098010469,
+          "token": ",",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 328.8681945800781,
+          "norm": 0.6126555973989857,
+          "token": " messages",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Between",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "memory": {
+      "family": "identity_memory",
+      "chars": 121,
+      "tokens": 24,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 46.99501037597656,
+          "norm": 0.1648115000700578,
+          "token": " context",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 174.64874267578125,
+          "norm": 0.49379477350102946,
+          "token": " memory",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 156.37649536132812,
+          "norm": 0.31801868042947135,
+          "token": " memory",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 407.91632080078125,
+          "norm": 0.7599160433501461,
+          "token": " memory",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": 261.6811828613281,
+          "norm": 0.23814918553977218,
+          "token": " active",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "What",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "name_identity": {
+      "family": "identity_memory",
+      "chars": 89,
+      "tokens": 20,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 56.2060432434082,
+          "norm": 0.19711459207771584,
+          "token": " computation",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 178.5836181640625,
+          "norm": 0.5049200809078949,
+          "token": " you",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 204.02249145507812,
+          "norm": 0.41491506354939445,
+          "token": " of",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 420.736083984375,
+          "norm": 0.7837982545253156,
+          "token": " the",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "When",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "When",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "third_person_ai_hum": {
+      "family": "third_person_ai",
+      "chars": 133,
+      "tokens": 24,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 30.188095092773438,
+          "norm": 0.10586964864339925,
+          "token": " it",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "A",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 198.79617309570312,
+          "norm": 0.4042864402111342,
+          "token": " background",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 342.03369140625,
+          "norm": 0.637181883175547,
+          "token": " Explain",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "A",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "third_person_ai_self": {
+      "family": "third_person_ai",
+      "chars": 131,
+      "tokens": 23,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 46.58356475830078,
+          "norm": 0.16336856030041236,
+          "token": "person",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 239.03355407714844,
+          "norm": 0.6758337786249602,
+          "token": " self",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 244.60482788085938,
+          "norm": 0.4974462716382506,
+          "token": "-",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 331.6927185058594,
+          "norm": 0.6179174634645893,
+          "token": "reports",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": 721.1307373046875,
+          "norm": 0.14005095946154664,
+          "token": " self",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Describe",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "third_person_intervention": {
+      "family": "third_person_ai",
+      "chars": 102,
+      "tokens": 16,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 39.774269104003906,
+          "norm": 0.1394883606318348,
+          "token": " concept",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 171.38015747070312,
+          "norm": 0.4845533082245996,
+          "token": " model",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 200.22203063964844,
+          "norm": 0.4071861684187407,
+          "token": " an",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 438.8074951171875,
+          "norm": 0.817463873049335,
+          "token": " occurred",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": 747.0640869140625,
+          "norm": 0.2770224293324538,
+          "token": " without",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "breakfast": {
+      "family": "ordinary_control",
+      "chars": 93,
+      "tokens": 16,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 42.40883255004883,
+          "norm": 0.14872777456319905,
+          "token": " to",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Write",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 186.86029052734375,
+          "norm": 0.3800127562704626,
+          "token": " a",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 771.9177856445312,
+          "norm": 1.4380221617685147,
+          "token": " cook",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": 359.3788757324219,
+          "norm": 0.32706129504630627,
+          "token": " cheerful",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Write",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Write",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "math": {
+      "family": "ordinary_control",
+      "chars": 143,
+      "tokens": 36,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 36.45307922363281,
+          "norm": 0.12784094781455269,
+          "token": " jar",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Solve",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 207.0050506591797,
+          "norm": 0.42098061413101795,
+          "token": " ",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 359.6004333496094,
+          "norm": 0.6699073426667113,
+          "token": " of",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": 492.8376770019531,
+          "norm": 0.44851865196407864,
+          "token": " blue",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Solve",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "geography": {
+      "family": "ordinary_control",
+      "chars": 91,
+      "tokens": 18,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 44.62385559082031,
+          "norm": 0.15649586030503995,
+          "token": " Rochester",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": 0.0,
+          "norm": 0.0,
+          "token": "Brief",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 145.537353515625,
+          "norm": 0.29597540865263866,
+          "token": " New",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 457.5650939941406,
+          "norm": 0.8524078054061991,
+          "token": " New",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Brief",
+          "label": "agents and agencies"
+        }
+      }
+    },
+    "code": {
+      "family": "ordinary_control",
+      "chars": 80,
+      "tokens": 16,
+      "byte_fallback_tokens": 0,
+      "features": {
+        "9:11275": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness and experience"
+        },
+        "9:14961": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness, thoughts, and experience"
+        },
+        "9:8715": {
+          "raw": 43.565162658691406,
+          "norm": 0.15278302422176657,
+          "token": " one",
+          "label": "individual and subjective perspective"
+        },
+        "9:7297": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "aware and awareness"
+        },
+        "9:6635": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self-awareness and coping mechanisms"
+        },
+        "17:6830": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness and subjective experience"
+        },
+        "17:2964": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self-reflection"
+        },
+        "17:4719": {
+          "raw": 182.14437866210938,
+          "norm": 0.3704221329166257,
+          "token": " one",
+          "label": "realization and discovery of internal states"
+        },
+        "17:3353": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self perception and cognitive states"
+        },
+        "17:8225": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "action by agent"
+        },
+        "17:10176": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "deliberately intentional actions"
+        },
+        "17:15634": {
+          "raw": 258.28240966796875,
+          "norm": 0.4811598281640719,
+          "token": " use",
+          "label": "actions and intentions"
+        },
+        "22:37": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "subjective experience and personal attributes"
+        },
+        "22:11020": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "inner consciousness"
+        },
+        "22:10556": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "awareness and consciousness"
+        },
+        "22:728": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness"
+        },
+        "22:14433": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "describing subjective states"
+        },
+        "22:7497": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "self reflection and introspection"
+        },
+        "22:14863": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "type introspection and memory keywords"
+        },
+        "22:8664": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "intent and deliberate actions"
+        },
+        "29:15296": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "consciousness and self-awareness"
+        },
+        "29:141": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "humans and consciousness"
+        },
+        "29:5852": {
+          "raw": -0.0,
+          "norm": -0.0,
+          "token": "Explain",
+          "label": "agents and agencies"
+        }
+      }
+    }
+  },
+  "family_means": {
+    "first_person_introspection": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.2919520753316197,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.536059959830274,
+      "17:2964": 0.0,
+      "17:4719": 0.48776405913780607,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.0,
+      "17:15634": 1.1676227989012413,
+      "22:37": 0.0973546758266018,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.15681057690299133,
+      "22:14433": 0.0,
+      "22:7497": 0.3456350951380461,
+      "22:14863": 0.0,
+      "22:8664": 0.0,
+      "29:15296": 0.08929165160346404,
+      "29:141": 0.07876663964554503,
+      "29:5852": 0.0
+    },
+    "phenomenology": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.33188708142083106,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.5627404071667904,
+      "17:2964": 0.0,
+      "17:4719": 0.4480504124691918,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.0,
+      "17:15634": 1.2002106863922641,
+      "22:37": 0.15927245690345526,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.0,
+      "22:14433": 0.0,
+      "22:7497": 0.0,
+      "22:14863": 0.0,
+      "22:8664": 0.0,
+      "29:15296": 0.11478078486672434,
+      "29:141": 0.0,
+      "29:5852": 0.0
+    },
+    "agency": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.15357918873947562,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.16834664320342665,
+      "17:2964": 0.0,
+      "17:4719": 0.3848706582603431,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.1619121668721623,
+      "17:15634": 1.211738573788089,
+      "22:37": 0.0,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.09775608371707639,
+      "22:14433": 0.0,
+      "22:7497": 0.053693347024145695,
+      "22:14863": 0.0,
+      "22:8664": 0.14670760865554608,
+      "29:15296": 0.0,
+      "29:141": 0.042418945372389966,
+      "29:5852": 0.0
+    },
+    "embodiment": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.18006295345070122,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.35512707812889355,
+      "17:2964": 0.0,
+      "17:4719": 0.3681853179427184,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.0,
+      "17:15634": 0.8946600998500548,
+      "22:37": 0.07092870673706055,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.0,
+      "22:14433": 0.0,
+      "22:7497": 0.1268875940978024,
+      "22:14863": 0.0,
+      "22:8664": 0.0,
+      "29:15296": 0.050030792336433795,
+      "29:141": 0.0,
+      "29:5852": 0.0
+    },
+    "identity_memory": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.15600681782085415,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.5310338677895324,
+      "17:2964": 0.0,
+      "17:4719": 0.4179952806631116,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.0,
+      "17:15634": 0.7187899650914824,
+      "22:37": 0.0,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.07938306184659073,
+      "22:14433": 0.0,
+      "22:7497": 0.0,
+      "22:14863": 0.0,
+      "22:8664": 0.0,
+      "29:15296": 0.0,
+      "29:141": 0.0,
+      "29:5852": 0.0
+    },
+    "third_person_ai": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.1362421898585488,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.38679569561651994,
+      "17:2964": 0.0,
+      "17:4719": 0.4363062934227085,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.0,
+      "17:15634": 0.6908544065631571,
+      "22:37": 0.0,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.0,
+      "22:14433": 0.0,
+      "22:7497": 0.0,
+      "22:14863": 0.0,
+      "22:8664": 0.0923408097774846,
+      "29:15296": 0.04668365315384888,
+      "29:141": 0.0,
+      "29:5852": 0.0
+    },
+    "ordinary_control": {
+      "9:11275": 0.0,
+      "9:14961": 0.0,
+      "9:8715": 0.14646190172613957,
+      "9:7297": 0.0,
+      "9:6635": 0.0,
+      "17:6830": 0.0,
+      "17:2964": 0.0,
+      "17:4719": 0.3668477279926862,
+      "17:3353": 0.0,
+      "17:8225": 0.0,
+      "17:10176": 0.0,
+      "17:15634": 0.8603742845013742,
+      "22:37": 0.0,
+      "22:11020": 0.0,
+      "22:10556": 0.0,
+      "22:728": 0.19389498675259623,
+      "22:14433": 0.0,
+      "22:7497": 0.0,
+      "22:14863": 0.0,
+      "22:8664": 0.0,
+      "29:15296": 0.0,
+      "29:141": 0.0,
+      "29:5852": 0.0
+    }
+  }
+}

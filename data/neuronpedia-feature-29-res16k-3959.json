@@ -1,0 +1,61 @@
+{
+  "modelId": "gemma-3-4b-it",
+  "layer": "29-gemmascope-2-res-16k",
+  "index": "3959",
+  "description": "golf",
+  "typeName": "np_acts-logits-general",
+  "explanationModelName": "gemini-2.5-flash-lite",
+  "cosine_similarity": null,
+  "maxActApprox": 9106.7363,
+  "frac_nonzero": 0.0007649736148956293,
+  "hookName": "blocks.29.hook_resid_post",
+  "pos_str": [
+    " golf",
+    " Golf",
+    "Golf",
+    " golfers",
+    "golf",
+    " golfer",
+    " golfing",
+    "\ud83c\udfcc",
+    "\u26f3",
+    " \u30b4\u30eb\u30d5"
+  ],
+  "pos_values": [
+    3.1605701,
+    3.122877,
+    3.0716279,
+    2.9166164,
+    2.8234384,
+    2.8197486,
+    2.6878633,
+    2.6196258,
+    2.5425365,
+    2.431723
+  ],
+  "neg_str": [
+    "Neon",
+    " crypt",
+    " Mesopot",
+    " Albania",
+    "Crypt",
+    "\u30b1\u30fc\u30c8",
+    " Crypt",
+    "Alban",
+    "estial",
+    " cryptography"
+  ],
+  "neg_values": [
+    0.7562041,
+    0.7486692,
+    0.74771845,
+    0.71979815,
+    0.70763725,
+    0.6881062,
+    0.68009496,
+    0.67654675,
+    0.6698557,
+    0.6697077
+  ],
+  "url": "https://www.neuronpedia.org/gemma-3-4b-it/29-gemmascope-2-res-16k/3959"
+}

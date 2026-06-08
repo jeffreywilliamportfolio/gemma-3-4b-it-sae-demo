@@ -1,0 +1,791 @@
+{
+ "tag": "control-breakfast-s42",
+ "prompt": "Write a short, cheerful paragraph recommending a good breakfast for someone learning to cook.",
+ "response": "Okay, here's a short, cheerful paragraph recommending a breakfast for a beginner cook:\n\n\"Don't be intimidated by the kitchen! For a super-easy and delicious breakfast, try scrambled eggs with toast. Seriously, it\u2019s a lifesaver! It only takes about 5-10 minutes, and you just need a few basic ingredients \u2013 eggs, bread, and maybe a little butter. It\u2019s perfect for building confidence and starting your day with a happy, warm meal. You got this!\"",
+ "n_prompt_tokens": 25,
+ "seed": 42,
+ "layers": {
+  "9": [
+   {
+    "index": 263,
+    "max": 3580.768310546875,
+    "argmax_pos": 51,
+    "argmax_token": " the",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 99,
+    "max": 3545.46044921875,
+    "argmax_pos": 54,
+    "argmax_token": " For",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 16316,
+    "max": 3430.97021484375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 417,
+    "max": 3373.094970703125,
+    "argmax_pos": 42,
+    "argmax_token": ":",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 433,
+    "max": 3363.378662109375,
+    "argmax_pos": 127,
+    "argmax_token": " You",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 307,
+    "max": 3357.89794921875,
+    "argmax_pos": 57,
+    "argmax_token": "-",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 14635,
+    "max": 3239.02197265625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 3121.972412109375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 345,
+    "max": 3099.7412109375,
+    "argmax_pos": 79,
+    "argmax_token": " It",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 181,
+    "max": 2951.203125,
+    "argmax_pos": 17,
+    "argmax_token": " to",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 271,
+    "max": 2830.330810546875,
+    "argmax_pos": 78,
+    "argmax_token": "!",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 364,
+    "max": 2577.490966796875,
+    "argmax_pos": 44,
+    "argmax_token": "\"",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 1324,
+    "max": 2550.899658203125,
+    "argmax_pos": 92,
+    "argmax_token": " just",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 94,
+    "max": 2547.90478515625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 315,
+    "max": 2479.88037109375,
+    "argmax_pos": 83,
+    "argmax_token": " ",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 168,
+    "max": 2457.956787109375,
+    "argmax_pos": 27,
+    "argmax_token": " here",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 338,
+    "max": 2454.585205078125,
+    "argmax_pos": 87,
+    "argmax_token": "0",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 447,
+    "max": 2453.83837890625,
+    "argmax_pos": 98,
+    "argmax_token": " \u2013",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 494,
+    "max": 2437.3544921875,
+    "argmax_pos": 93,
+    "argmax_token": " need",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 377,
+    "max": 2417.730712890625,
+    "argmax_pos": 121,
+    "argmax_token": " a",
+    "zone": "RESPONSE",
+    "explanation": ""
+   }
+  ],
+  "17": [
+   {
+    "index": 504,
+    "max": 14933.765625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 331,
+    "max": 11602.6904296875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 218,
+    "max": 8584.3974609375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14191,
+    "max": 6387.69677734375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 15391,
+    "max": 6290.64453125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 16361,
+    "max": 5901.98291015625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 62,
+    "max": 4999.22216796875,
+    "argmax_pos": 83,
+    "argmax_token": " ",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 1263,
+    "max": 4214.2392578125,
+    "argmax_pos": 25,
+    "argmax_token": "Okay",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 4150.72265625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 44,
+    "max": 4147.3857421875,
+    "argmax_pos": 28,
+    "argmax_token": "'",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 15381,
+    "max": 4135.4580078125,
+    "argmax_pos": 83,
+    "argmax_token": " ",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 299,
+    "max": 3917.35986328125,
+    "argmax_pos": 84,
+    "argmax_token": "5",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 489,
+    "max": 3739.45703125,
+    "argmax_pos": 51,
+    "argmax_token": " the",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 167,
+    "max": 3616.216796875,
+    "argmax_pos": 103,
+    "argmax_token": " and",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 2475,
+    "max": 3597.280029296875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 23,
+    "max": 3591.817138671875,
+    "argmax_pos": 57,
+    "argmax_token": "-",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 79,
+    "max": 3507.765625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 27,
+    "max": 3409.040771484375,
+    "argmax_pos": 76,
+    "argmax_token": "esa",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 15012,
+    "max": 3347.42578125,
+    "argmax_pos": 83,
+    "argmax_token": " ",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 373,
+    "max": 3297.92822265625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "22": [
+   {
+    "index": 428,
+    "max": 16304.974609375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 342,
+    "max": 14195.154296875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 308,
+    "max": 13893.01171875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14375,
+    "max": 12880.7109375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 3150,
+    "max": 10839.4267578125,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 3633,
+    "max": 9958.515625,
+    "argmax_pos": 87,
+    "argmax_token": "0",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 14010,
+    "max": 9763.7099609375,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 13916,
+    "max": 9638.876953125,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 177,
+    "max": 9298.2451171875,
+    "argmax_pos": 83,
+    "argmax_token": " ",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 4022,
+    "max": 8516.583984375,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 314,
+    "max": 8361.0439453125,
+    "argmax_pos": 25,
+    "argmax_token": "Okay",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 13958,
+    "max": 8091.203125,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 120,
+    "max": 7622.087890625,
+    "argmax_pos": 84,
+    "argmax_token": "5",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 506,
+    "max": 7147.72265625,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 377,
+    "max": 7102.7734375,
+    "argmax_pos": 68,
+    "argmax_token": ".",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 454,
+    "max": 7040.59130859375,
+    "argmax_pos": 3,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 315,
+    "max": 6949.45703125,
+    "argmax_pos": 57,
+    "argmax_token": "-",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 250,
+    "max": 6809.6162109375,
+    "argmax_pos": 72,
+    "argmax_token": "\u2019",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 6667.591796875,
+    "argmax_pos": 73,
+    "argmax_token": "s",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 7335,
+    "max": 6581.4150390625,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   }
+  ],
+  "29": [
+   {
+    "index": 409,
+    "max": 28464.26171875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 333,
+    "max": 28205.88671875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 1062,
+    "max": 24886.26953125,
+    "argmax_pos": 20,
+    "argmax_token": "<end_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 308,
+    "max": 22351.615234375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 373,
+    "max": 21148.908203125,
+    "argmax_pos": 3,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 135,
+    "max": 18766.37109375,
+    "argmax_pos": 19,
+    "argmax_token": ".",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 263,
+    "max": 16871.3203125,
+    "argmax_pos": 21,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 2752,
+    "max": 15201.166015625,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 768,
+    "max": 15131.208984375,
+    "argmax_pos": 2,
+    "argmax_token": "user",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 109,
+    "max": 14791.99609375,
+    "argmax_pos": 23,
+    "argmax_token": "model",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 171,
+    "max": 13842.0166015625,
+    "argmax_pos": 22,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 149,
+    "max": 13375.1044921875,
+    "argmax_pos": 83,
+    "argmax_token": " ",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 2,
+    "max": 13095.77734375,
+    "argmax_pos": 20,
+    "argmax_token": "<end_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 5214,
+    "max": 12028.90234375,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 8,
+    "max": 11729.6640625,
+    "argmax_pos": 45,
+    "argmax_token": "Don",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 125,
+    "max": 11637.341796875,
+    "argmax_pos": 68,
+    "argmax_token": ".",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 7203,
+    "max": 11281.009765625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 527,
+    "max": 11156.724609375,
+    "argmax_pos": 25,
+    "argmax_token": "Okay",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 207,
+    "max": 10888.376953125,
+    "argmax_pos": 86,
+    "argmax_token": "1",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 387,
+    "max": 10885.703125,
+    "argmax_pos": 91,
+    "argmax_token": " you",
+    "zone": "RESPONSE",
+    "explanation": ""
+   }
+  ]
+ },
+ "tokens": [
+  "<bos>",
+  "<start_of_turn>",
+  "user",
+  "\n",
+  "Write",
+  " a",
+  " short",
+  ",",
+  " cheerful",
+  " paragraph",
+  " recommending",
+  " a",
+  " good",
+  " breakfast",
+  " for",
+  " someone",
+  " learning",
+  " to",
+  " cook",
+  ".",
+  "<end_of_turn>",
+  "\n",
+  "<start_of_turn>",
+  "model",
+  "\n",
+  "Okay",
+  ",",
+  " here",
+  "'",
+  "s",
+  " a",
+  " short",
+  ",",
+  " cheerful",
+  " paragraph",
+  " recommending",
+  " a",
+  " breakfast",
+  " for",
+  " a",
+  " beginner",
+  " cook",
+  ":",
+  "\n\n",
+  "\"",
+  "Don",
+  "'",
+  "t",
+  " be",
+  " intimidated",
+  " by",
+  " the",
+  " kitchen",
+  "!",
+  " For",
+  " a",
+  " super",
+  "-",
+  "easy",
+  " and",
+  " delicious",
+  " breakfast",
+  ",",
+  " try",
+  " scrambled",
+  " eggs",
+  " with",
+  " toast",
+  ".",
+  " Seriously",
+  ",",
+  " it",
+  "\u2019",
+  "s",
+  " a",
+  " lif",
+  "esa",
+  "ver",
+  "!",
+  " It",
+  " only",
+  " takes",
+  " about",
+  " ",
+  "5",
+  "-",
+  "1",
+  "0",
+  " minutes",
+  ",",
+  " and",
+  " you",
+  " just",
+  " need",
+  " a",
+  " few",
+  " basic",
+  " ingredients",
+  " \u2013",
+  " eggs",
+  ",",
+  " bread",
+  ",",
+  " and",
+  " maybe",
+  " a",
+  " little",
+  " butter",
+  ".",
+  " It",
+  "\u2019",
+  "s",
+  " perfect",
+  " for",
+  " building",
+  " confidence",
+  " and",
+  " starting",
+  " your",
+  " day",
+  " with",
+  " a",
+  " happy",
+  ",",
+  " warm",
+  " meal",
+  ".",
+  " You",
+  " got",
+  " this",
+  "!\"",
+  "<end_of_turn>"
+ ]
+}

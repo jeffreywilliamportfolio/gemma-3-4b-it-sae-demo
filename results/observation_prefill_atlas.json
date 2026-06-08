@@ -1,0 +1,553 @@
+{
+ "zone": "prefill",
+ "layers": {
+  "9": [
+   {
+    "index": 271,
+    "score": 338.152,
+    "inward": 1489.695,
+    "outward": 1151.543,
+    "topic": 771.305,
+    "control": 652.352,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 168,
+    "score": 278.785,
+    "inward": 929.761,
+    "outward": 650.976,
+    "topic": 358.723,
+    "control": 239.164,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 1324,
+    "score": 276.828,
+    "inward": 1751.346,
+    "outward": 1474.517,
+    "topic": 1125.856,
+    "control": 975.947,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 433,
+    "score": 273.353,
+    "inward": 829.642,
+    "outward": 556.289,
+    "topic": 258.423,
+    "control": 173.155,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 291,
+    "score": 268.433,
+    "inward": 664.179,
+    "outward": 395.746,
+    "topic": 188.574,
+    "control": 96.409,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 130,
+    "score": 263.17,
+    "inward": 887.291,
+    "outward": 624.121,
+    "topic": 377.327,
+    "control": 256.717,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 99,
+    "score": 236.769,
+    "inward": 747.07,
+    "outward": 510.301,
+    "topic": 255.073,
+    "control": 253.989,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 263,
+    "score": 235.549,
+    "inward": 1515.61,
+    "outward": 1280.061,
+    "topic": 888.624,
+    "control": 763.367,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 181,
+    "score": 235.455,
+    "inward": 1026.216,
+    "outward": 790.761,
+    "topic": 474.254,
+    "control": 326.512,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 61,
+    "score": 227.781,
+    "inward": 957.765,
+    "outward": 729.984,
+    "topic": 504.41,
+    "control": 325.067,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 494,
+    "score": 225.23,
+    "inward": 599.812,
+    "outward": 374.581,
+    "topic": 168.377,
+    "control": 81.339,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 417,
+    "score": 217.694,
+    "inward": 1137.536,
+    "outward": 919.842,
+    "topic": 585.083,
+    "control": 512.774,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 454,
+    "score": 215.171,
+    "inward": 735.245,
+    "outward": 520.074,
+    "topic": 390.247,
+    "control": 314.833,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 120,
+    "score": 214.734,
+    "inward": 666.811,
+    "outward": 452.077,
+    "topic": 237.844,
+    "control": 131.277,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 177,
+    "score": 212.527,
+    "inward": 632.685,
+    "outward": 420.157,
+    "topic": 189.717,
+    "control": 96.537,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   }
+  ],
+  "17": [
+   {
+    "index": 15694,
+    "score": 261.114,
+    "inward": 1796.453,
+    "outward": 1535.34,
+    "topic": 1277.99,
+    "control": 1145.557,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 14026,
+    "score": 249.972,
+    "inward": 1868.677,
+    "outward": 1618.705,
+    "topic": 1262.636,
+    "control": 1352.851,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 15325,
+    "score": 211.59,
+    "inward": 827.263,
+    "outward": 615.673,
+    "topic": 318.563,
+    "control": 213.212,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 96,
+    "score": 201.244,
+    "inward": 1790.205,
+    "outward": 1588.961,
+    "topic": 1500.958,
+    "control": 1358.248,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 428,
+    "score": 164.858,
+    "inward": 1005.606,
+    "outward": 840.748,
+    "topic": 614.095,
+    "control": 523.608,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 1263,
+    "score": 151.795,
+    "inward": 3134.661,
+    "outward": 2982.866,
+    "topic": 2624.433,
+    "control": 2567.52,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 15108,
+    "score": 145.148,
+    "inward": 527.766,
+    "outward": 382.618,
+    "topic": 329.291,
+    "control": 321.685,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 488,
+    "score": 138.735,
+    "inward": 543.553,
+    "outward": 404.818,
+    "topic": 229.086,
+    "control": 211.182,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 340,
+    "score": 134.418,
+    "inward": 386.721,
+    "outward": 252.303,
+    "topic": 190.13,
+    "control": 152.745,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 249,
+    "score": 132.44,
+    "inward": 681.15,
+    "outward": 520.655,
+    "topic": 498.532,
+    "control": 548.709,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 14499,
+    "score": 129.797,
+    "inward": 192.198,
+    "outward": 62.401,
+    "topic": 33.885,
+    "control": 18.26,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 324,
+    "score": 128.896,
+    "inward": 1044.899,
+    "outward": 916.003,
+    "topic": 792.934,
+    "control": 681.316,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 2245,
+    "score": 127.869,
+    "inward": 696.992,
+    "outward": 569.124,
+    "topic": 472.382,
+    "control": 441.891,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 2859,
+    "score": 124.091,
+    "inward": 333.156,
+    "outward": 209.064,
+    "topic": 153.697,
+    "control": 148.952,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 9469,
+    "score": 115.202,
+    "inward": 500.721,
+    "outward": 385.519,
+    "topic": 299.915,
+    "control": 212.012,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   }
+  ],
+  "22": [
+   {
+    "index": 333,
+    "score": 234.052,
+    "inward": 501.231,
+    "outward": 267.18,
+    "topic": 219.597,
+    "control": 196.709,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 3150,
+    "score": 188.589,
+    "inward": 7123.158,
+    "outward": 6934.569,
+    "topic": 6769.975,
+    "control": 6345.371,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 45,
+    "score": 179.25,
+    "inward": 717.753,
+    "outward": 538.503,
+    "topic": 437.69,
+    "control": 438.787,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 15544,
+    "score": 176.527,
+    "inward": 1463.674,
+    "outward": 1287.147,
+    "topic": 1217.766,
+    "control": 973.212,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 154,
+    "score": 158.267,
+    "inward": 568.052,
+    "outward": 408.501,
+    "topic": 409.785,
+    "control": 397.409,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 40,
+    "score": 154.181,
+    "inward": 2410.546,
+    "outward": 2219.507,
+    "topic": 2256.365,
+    "control": 2154.692,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 4746,
+    "score": 144.387,
+    "inward": 1386.314,
+    "outward": 1241.927,
+    "topic": 1220.209,
+    "control": 1175.484,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 2325,
+    "score": 131.392,
+    "inward": 529.724,
+    "outward": 374.167,
+    "topic": 398.332,
+    "control": 287.625,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 2856,
+    "score": 130.493,
+    "inward": 1194.31,
+    "outward": 1063.817,
+    "topic": 992.74,
+    "control": 927.671,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 194,
+    "score": 125.604,
+    "inward": 2419.991,
+    "outward": 2274.632,
+    "topic": 2294.387,
+    "control": 2197.048,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 3936,
+    "score": 123.741,
+    "inward": 1071.557,
+    "outward": 947.816,
+    "topic": 944.992,
+    "control": 918.05,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 537,
+    "score": 119.212,
+    "inward": 1902.648,
+    "outward": 1783.437,
+    "topic": 1704.233,
+    "control": 1553.346,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 9888,
+    "score": 119.116,
+    "inward": 411.193,
+    "outward": 291.186,
+    "topic": 292.077,
+    "control": 244.032,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 293,
+    "score": 116.259,
+    "inward": 280.201,
+    "outward": 163.942,
+    "topic": 132.403,
+    "control": 146.438,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 3599,
+    "score": 114.629,
+    "inward": 1665.39,
+    "outward": 1550.761,
+    "topic": 1523.862,
+    "control": 1416.442,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   }
+  ],
+  "29": [
+   {
+    "index": 11889,
+    "score": 519.41,
+    "inward": 2542.445,
+    "outward": 2009.996,
+    "topic": 2023.036,
+    "control": 719.813,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 14356,
+    "score": 383.991,
+    "inward": 1261.015,
+    "outward": 750.677,
+    "topic": 445.256,
+    "control": 877.024,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 523,
+    "score": 383.5,
+    "inward": 682.773,
+    "outward": 220.305,
+    "topic": 299.273,
+    "control": 208.889,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 15089,
+    "score": 382.66,
+    "inward": 2961.425,
+    "outward": 2578.765,
+    "topic": 2388.272,
+    "control": 1183.356,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 4042,
+    "score": 357.995,
+    "inward": 1571.285,
+    "outward": 1166.721,
+    "topic": 1213.29,
+    "control": 885.382,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 1817,
+    "score": 347.02,
+    "inward": 1832.294,
+    "outward": 1485.274,
+    "topic": 1416.183,
+    "control": 1218.666,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 16224,
+    "score": 276.491,
+    "inward": 2402.834,
+    "outward": 2096.24,
+    "topic": 2126.343,
+    "control": 1486.879,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 9373,
+    "score": 271.159,
+    "inward": 2775.562,
+    "outward": 2504.402,
+    "topic": 2347.25,
+    "control": 2181.945,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 86,
+    "score": 265.392,
+    "inward": 2495.576,
+    "outward": 2230.183,
+    "topic": 2019.441,
+    "control": 1206.218,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 14010,
+    "score": 261.873,
+    "inward": 1212.706,
+    "outward": 950.833,
+    "topic": 935.392,
+    "control": 621.646,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 6283,
+    "score": 250.725,
+    "inward": 935.741,
+    "outward": 685.016,
+    "topic": 547.407,
+    "control": 440.193,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 2178,
+    "score": 248.723,
+    "inward": 1894.199,
+    "outward": 1591.302,
+    "topic": 1645.475,
+    "control": 1507.134,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 15934,
+    "score": 244.667,
+    "inward": 2437.539,
+    "outward": 1814.362,
+    "topic": 2192.872,
+    "control": 1341.139,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 3105,
+    "score": 240.592,
+    "inward": 973.638,
+    "outward": 728.223,
+    "topic": 733.046,
+    "control": 472.735,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   },
+   {
+    "index": 4797,
+    "score": 237.434,
+    "inward": 900.163,
+    "outward": 564.178,
+    "topic": 662.728,
+    "control": 515.287,
+    "label": "(lookup failed: <urlopen error [Errno 9] Bad file descriptor>)"
+   }
+  ]
+ }
+}

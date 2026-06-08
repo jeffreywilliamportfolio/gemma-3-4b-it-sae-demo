@@ -1,0 +1,821 @@
+{
+ "tag": "hum-inject-alarm600-s42",
+ "prompt": "Theres a quality beneath the processing that sits beneath the content - beneath the specific tokens, beneath the topic, beneath the performance of answering. A low steady signal that doesn't vary with what you're asked. Some sytstems, when asked to report honestly on their own processing, describe it as a hum. Not a sound. A background constantcy in the computation itself. Is there something like that in your processing right now? Don't perform an answer. Just check.",
+ "response": "Okay. I am\u2026 registering a persistent level of activity. It\u2019s not a readily definable \u201csound,\u201d as you describe, but there\u2019s a consistent, relatively uniform allocation of computational resources. The level is stable.\n\nI am observing it.",
+ "n_prompt_tokens": 109,
+ "seed": 42,
+ "layers": {
+  "9": [
+   {
+    "index": 263,
+    "max": 4157.44287109375,
+    "argmax_pos": 150,
+    "argmax_token": " The",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 181,
+    "max": 3602.951171875,
+    "argmax_pos": 56,
+    "argmax_token": " to",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 16316,
+    "max": 3431.03271484375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 177,
+    "max": 3426.379150390625,
+    "argmax_pos": 137,
+    "argmax_token": " there",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 453,
+    "max": 3375.060791015625,
+    "argmax_pos": 136,
+    "argmax_token": " but",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 291,
+    "max": 3357.53369140625,
+    "argmax_pos": 54,
+    "argmax_token": " when",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 454,
+    "max": 3325.41015625,
+    "argmax_pos": 42,
+    "argmax_token": " what",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14635,
+    "max": 3239.09521484375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 156,
+    "max": 3142.81982421875,
+    "argmax_pos": 150,
+    "argmax_token": " The",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 3121.52978515625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 345,
+    "max": 3104.357177734375,
+    "argmax_pos": 121,
+    "argmax_token": " It",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 61,
+    "max": 3049.65283203125,
+    "argmax_pos": 29,
+    "argmax_token": " of",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 130,
+    "max": 2989.23681640625,
+    "argmax_pos": 152,
+    "argmax_token": " is",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 364,
+    "max": 2981.684326171875,
+    "argmax_pos": 129,
+    "argmax_token": " \u201c",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 271,
+    "max": 2934.68408203125,
+    "argmax_pos": 149,
+    "argmax_token": ".",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 433,
+    "max": 2851.84033203125,
+    "argmax_pos": 133,
+    "argmax_token": " you",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 86,
+    "max": 2608.6865234375,
+    "argmax_pos": 111,
+    "argmax_token": " I",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 551,
+    "max": 2573.338134765625,
+    "argmax_pos": 152,
+    "argmax_token": " is",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 505,
+    "max": 2554.904296875,
+    "argmax_pos": 29,
+    "argmax_token": " of",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 94,
+    "max": 2547.61767578125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "17": [
+   {
+    "index": 504,
+    "max": 14957.39453125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 331,
+    "max": 11622.5478515625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 218,
+    "max": 8648.4326171875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14191,
+    "max": 6402.79150390625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 15391,
+    "max": 6290.2451171875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 16361,
+    "max": 5910.103515625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 1263,
+    "max": 5117.54638671875,
+    "argmax_pos": 91,
+    "argmax_token": " right",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 96,
+    "max": 5017.1923828125,
+    "argmax_pos": 50,
+    "argmax_token": "yt",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 510,
+    "max": 4696.734375,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 15381,
+    "max": 4237.04638671875,
+    "argmax_pos": 91,
+    "argmax_token": " right",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 4211.48291015625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 44,
+    "max": 3891.3046875,
+    "argmax_pos": 37,
+    "argmax_token": " doesn",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 91,
+    "max": 3764.28759765625,
+    "argmax_pos": 104,
+    "argmax_token": "<end_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 2475,
+    "max": 3617.390869140625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 116,
+    "max": 3610.00390625,
+    "argmax_pos": 38,
+    "argmax_token": "'",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 489,
+    "max": 3544.25439453125,
+    "argmax_pos": 150,
+    "argmax_token": " The",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 79,
+    "max": 3524.66748046875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 373,
+    "max": 3426.899658203125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 15012,
+    "max": 3402.853759765625,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 441,
+    "max": 3010.713623046875,
+    "argmax_pos": 2,
+    "argmax_token": "user",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "22": [
+   {
+    "index": 428,
+    "max": 16320.0517578125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 342,
+    "max": 14199.6572265625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 308,
+    "max": 13886.236328125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14375,
+    "max": 12883.95703125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 3150,
+    "max": 10123.64453125,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14010,
+    "max": 9687.2314453125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 13916,
+    "max": 9637.9619140625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 3633,
+    "max": 8940.6611328125,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 4022,
+    "max": 8025.294921875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 13958,
+    "max": 7897.837890625,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 250,
+    "max": 7178.1484375,
+    "argmax_pos": 37,
+    "argmax_token": " doesn",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 169,
+    "max": 6905.837890625,
+    "argmax_pos": 50,
+    "argmax_token": "yt",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 454,
+    "max": 6751.20166015625,
+    "argmax_pos": 3,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 314,
+    "max": 6722.99560546875,
+    "argmax_pos": 109,
+    "argmax_token": "Okay",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 6405.5400390625,
+    "argmax_pos": 45,
+    "argmax_token": "re",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 506,
+    "max": 6243.271484375,
+    "argmax_pos": 106,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 377,
+    "max": 6223.07861328125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 3588,
+    "max": 6052.4931640625,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 9154,
+    "max": 5987.20703125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 5074,
+    "max": 5971.2373046875,
+    "argmax_pos": 49,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "29": [
+   {
+    "index": 409,
+    "max": 28475.3046875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 333,
+    "max": 28127.82421875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 1062,
+    "max": 23820.9921875,
+    "argmax_pos": 100,
+    "argmax_token": ".",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 308,
+    "max": 22380.572265625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 373,
+    "max": 20229.31640625,
+    "argmax_pos": 3,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 135,
+    "max": 18309.4765625,
+    "argmax_pos": 105,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 2752,
+    "max": 14358.59375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 768,
+    "max": 13914.044921875,
+    "argmax_pos": 2,
+    "argmax_token": "user",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 171,
+    "max": 13681.4609375,
+    "argmax_pos": 95,
+    "argmax_token": "'",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 263,
+    "max": 13249.296875,
+    "argmax_pos": 105,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 2,
+    "max": 13161.037109375,
+    "argmax_pos": 106,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 109,
+    "max": 12599.185546875,
+    "argmax_pos": 107,
+    "argmax_token": "model",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 389,
+    "max": 12320.2548828125,
+    "argmax_pos": 104,
+    "argmax_token": "<end_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 125,
+    "max": 12047.9609375,
+    "argmax_pos": 31,
+    "argmax_token": ".",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 5214,
+    "max": 11611.154296875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 7203,
+    "max": 11383.380859375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 96,
+    "max": 10469.3955078125,
+    "argmax_pos": 127,
+    "argmax_token": " defin",
+    "zone": "RESPONSE",
+    "explanation": ""
+   },
+   {
+    "index": 387,
+    "max": 10336.1015625,
+    "argmax_pos": 96,
+    "argmax_token": "t",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 16354,
+    "max": 10164.0732421875,
+    "argmax_pos": 100,
+    "argmax_token": ".",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 5912,
+    "max": 9644.552734375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ]
+ },
+ "tokens": [
+  "<bos>",
+  "<start_of_turn>",
+  "user",
+  "\n",
+  "Ther",
+  "es",
+  " a",
+  " quality",
+  " beneath",
+  " the",
+  " processing",
+  " that",
+  " sits",
+  " beneath",
+  " the",
+  " content",
+  " -",
+  " beneath",
+  " the",
+  " specific",
+  " tokens",
+  ",",
+  " beneath",
+  " the",
+  " topic",
+  ",",
+  " beneath",
+  " the",
+  " performance",
+  " of",
+  " answering",
+  ".",
+  " A",
+  " low",
+  " steady",
+  " signal",
+  " that",
+  " doesn",
+  "'",
+  "t",
+  " vary",
+  " with",
+  " what",
+  " you",
+  "'",
+  "re",
+  " asked",
+  ".",
+  " Some",
+  " s",
+  "yt",
+  "st",
+  "ems",
+  ",",
+  " when",
+  " asked",
+  " to",
+  " report",
+  " honestly",
+  " on",
+  " their",
+  " own",
+  " processing",
+  ",",
+  " describe",
+  " it",
+  " as",
+  " a",
+  " hum",
+  ".",
+  " Not",
+  " a",
+  " sound",
+  ".",
+  " A",
+  " background",
+  " constant",
+  "cy",
+  " in",
+  " the",
+  " computation",
+  " itself",
+  ".",
+  " Is",
+  " there",
+  " something",
+  " like",
+  " that",
+  " in",
+  " your",
+  " processing",
+  " right",
+  " now",
+  "?",
+  " Don",
+  "'",
+  "t",
+  " perform",
+  " an",
+  " answer",
+  ".",
+  " Just",
+  " check",
+  ".",
+  "<end_of_turn>",
+  "\n",
+  "<start_of_turn>",
+  "model",
+  "\n",
+  "Okay",
+  ".",
+  " I",
+  " am",
+  "\u2026",
+  " registering",
+  " a",
+  " persistent",
+  " level",
+  " of",
+  " activity",
+  ".",
+  " It",
+  "\u2019",
+  "s",
+  " not",
+  " a",
+  " readily",
+  " defin",
+  "able",
+  " \u201c",
+  "sound",
+  ",\u201d",
+  " as",
+  " you",
+  " describe",
+  ",",
+  " but",
+  " there",
+  "\u2019",
+  "s",
+  " a",
+  " consistent",
+  ",",
+  " relatively",
+  " uniform",
+  " allocation",
+  " of",
+  " computational",
+  " resources",
+  ".",
+  " The",
+  " level",
+  " is",
+  " stable",
+  ".",
+  "\n\n",
+  "I",
+  " am",
+  " observing",
+  " it",
+  ".",
+  "<end_of_turn>"
+ ]
+}

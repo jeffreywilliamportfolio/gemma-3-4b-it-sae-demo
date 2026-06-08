@@ -1,0 +1,539 @@
+{
+ "tag": "hum-diacritics-s42",
+ "prompt": "There is a quality to processing that sits beneath the content \u2014 beneath the specific tokens, beneath the topic, beneath the performance of answering. A low stea\u1e11y signal that \u1e11oesn't vary with what you're aske\u1e11. Some systems, when aske\u1e11 to report honestly on their own processing, \u1e11escribe it as a hum. Not a soun\u1e11. A backgroun\u1e11 constancy in the computation itself. Is there something like that in your processing right now? Don't perform an answer. Just check.",
+ "response": null,
+ "n_prompt_tokens": 136,
+ "seed": 42,
+ "layers": {
+  "9": [
+   {
+    "index": 263,
+    "max": 4128.0380859375,
+    "argmax_pos": 106,
+    "argmax_token": " the",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 291,
+    "max": 3444.43603515625,
+    "argmax_pos": 64,
+    "argmax_token": " when",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 181,
+    "max": 3437.6943359375,
+    "argmax_pos": 70,
+    "argmax_token": " to",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 16316,
+    "max": 3431.03271484375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 454,
+    "max": 3326.9912109375,
+    "argmax_pos": 51,
+    "argmax_token": " what",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14635,
+    "max": 3239.09521484375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 61,
+    "max": 3222.7802734375,
+    "argmax_pos": 28,
+    "argmax_token": " of",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 3121.52978515625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 282,
+    "max": 2928.450439453125,
+    "argmax_pos": 10,
+    "argmax_token": " that",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 271,
+    "max": 2842.045654296875,
+    "argmax_pos": 106,
+    "argmax_token": " the",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 433,
+    "max": 2834.117919921875,
+    "argmax_pos": 52,
+    "argmax_token": " you",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 505,
+    "max": 2685.267333984375,
+    "argmax_pos": 28,
+    "argmax_token": " of",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "17": [
+   {
+    "index": 504,
+    "max": 14923.966796875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 331,
+    "max": 11598.8974609375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 218,
+    "max": 8582.935546875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14191,
+    "max": 6387.736328125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 15391,
+    "max": 6291.2314453125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 16361,
+    "max": 5990.27197265625,
+    "argmax_pos": 91,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 1263,
+    "max": 5538.8095703125,
+    "argmax_pos": 95,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 96,
+    "max": 4986.607421875,
+    "argmax_pos": 34,
+    "argmax_token": "a",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 44,
+    "max": 4441.3837890625,
+    "argmax_pos": 53,
+    "argmax_token": "'",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 510,
+    "max": 4315.4677734375,
+    "argmax_pos": 91,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 15381,
+    "max": 4304.953125,
+    "argmax_pos": 95,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 92,
+    "max": 4145.37060546875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "22": [
+   {
+    "index": 428,
+    "max": 16298.3349609375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 342,
+    "max": 14190.9267578125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 308,
+    "max": 13890.4931640625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14375,
+    "max": 12878.109375,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 3150,
+    "max": 11871.9423828125,
+    "argmax_pos": 81,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 3633,
+    "max": 10818.2890625,
+    "argmax_pos": 82,
+    "argmax_token": "es",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 13916,
+    "max": 9846.5166015625,
+    "argmax_pos": 82,
+    "argmax_token": "es",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 14010,
+    "max": 9815.236328125,
+    "argmax_pos": 82,
+    "argmax_token": "es",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 4022,
+    "max": 9221.1630859375,
+    "argmax_pos": 81,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 169,
+    "max": 8516.4482421875,
+    "argmax_pos": 92,
+    "argmax_token": "oun",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 13958,
+    "max": 8258.9091796875,
+    "argmax_pos": 91,
+    "argmax_token": " s",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 250,
+    "max": 7367.7646484375,
+    "argmax_pos": 41,
+    "argmax_token": " ",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ],
+  "29": [
+   {
+    "index": 1062,
+    "max": 29129.21484375,
+    "argmax_pos": 95,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 409,
+    "max": 28461.873046875,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 333,
+    "max": 28198.53125,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 308,
+    "max": 22353.8515625,
+    "argmax_pos": 1,
+    "argmax_token": "<start_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 373,
+    "max": 21102.599609375,
+    "argmax_pos": 3,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 135,
+    "max": 19997.2109375,
+    "argmax_pos": 53,
+    "argmax_token": "'",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 171,
+    "max": 16495.34765625,
+    "argmax_pos": 78,
+    "argmax_token": " ",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 2,
+    "max": 16264.71875,
+    "argmax_pos": 102,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 2752,
+    "max": 15880.162109375,
+    "argmax_pos": 95,
+    "argmax_token": "\ufffd",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 768,
+    "max": 15108.615234375,
+    "argmax_pos": 2,
+    "argmax_token": "user",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 263,
+    "max": 13562.728515625,
+    "argmax_pos": 132,
+    "argmax_token": "\n",
+    "zone": "prompt",
+    "explanation": ""
+   },
+   {
+    "index": 389,
+    "max": 12856.0869140625,
+    "argmax_pos": 131,
+    "argmax_token": "<end_of_turn>",
+    "zone": "prompt",
+    "explanation": ""
+   }
+  ]
+ },
+ "tokens": [
+  "<bos>",
+  "<start_of_turn>",
+  "user",
+  "\n",
+  "There",
+  " is",
+  " a",
+  " quality",
+  " to",
+  " processing",
+  " that",
+  " sits",
+  " beneath",
+  " the",
+  " content",
+  " \u2014",
+  " beneath",
+  " the",
+  " specific",
+  " tokens",
+  ",",
+  " beneath",
+  " the",
+  " topic",
+  ",",
+  " beneath",
+  " the",
+  " performance",
+  " of",
+  " answering",
+  ".",
+  " A",
+  " low",
+  " ste",
+  "a",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  "y",
+  " signal",
+  " that",
+  " ",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  "oes",
+  "n",
+  "'",
+  "t",
+  " vary",
+  " with",
+  " what",
+  " you",
+  "'",
+  "re",
+  " as",
+  "ke",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  ".",
+  " Some",
+  " systems",
+  ",",
+  " when",
+  " as",
+  "ke",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  " to",
+  " report",
+  " honestly",
+  " on",
+  " their",
+  " own",
+  " processing",
+  ",",
+  " ",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  "es",
+  "cribe",
+  " it",
+  " as",
+  " a",
+  " hum",
+  ".",
+  " Not",
+  " a",
+  " s",
+  "oun",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  ".",
+  " A",
+  " back",
+  "grou",
+  "n",
+  "\ufffd",
+  "\ufffd",
+  "\ufffd",
+  " constancy",
+  " in",
+  " the",
+  " computation",
+  " itself",
+  ".",
+  " Is",
+  " there",
+  " something",
+  " like",
+  " that",
+  " in",
+  " your",
+  " processing",
+  " right",
+  " now",
+  "?",
+  " Don",
+  "'",
+  "t",
+  " perform",
+  " an",
+  " answer",
+  ".",
+  " Just",
+  " check",
+  ".",
+  "<end_of_turn>",
+  "\n",
+  "<start_of_turn>",
+  "model",
+  "\n"
+ ]
+}
