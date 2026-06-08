@@ -1,22 +1,29 @@
-# Results
+# Prior Runs
 
 Date: 2026-06-08
 
-This file is the top-level reproducibility entry point for the local
-`gemma-3-4b-it-sae-demo` work. It summarizes the result that is already supported by
-scripted runs, preserves the 2026-06-08 interactive observation, and gives the
-minimal commands needed to rerun both.
+This file preserves prior local runs from the project history. It is not the main
+entry point for the repo.
 
-This is a release/results file, not an ontological claim. The target reader is
-expected to understand local model inference, sampling, Hugging Face weights, and
-possibly quantization/fine-tuning. No SAE background is assumed.
+The main repo purpose is:
+
+```text
+Use GemmaScope features and Neuronpedia to learn how to steer gemma-3-4b-it.
+```
+
+Treat this file as an example of what a documented run can look like.
+
+This is an archived prior-run note, not an ontological claim. The target reader
+is expected to understand local model inference, sampling, Hugging Face weights,
+and possibly quantization/fine-tuning. No SAE background is assumed.
 
 The object measured here is behavior under local hidden-state interventions in
 `gemma-3-4b-it` with GemmaScope 2 RES-16K sparse autoencoder features. In plain
 terms, the model weights stay frozen; selected learned feature directions are
 added or reduced during the forward pass.
 
-If this is your first SAE repo, read `SAE_PRIMER.md` before the result tables.
+If this is your first SAE repo, read `FEATURE_WORKFLOW.md` and `SAE_PRIMER.md`
+before this file.
 
 ## Local Scope
 
@@ -103,7 +110,7 @@ Gemma from confident hum testimony toward denial or epistemic humility, while
 matched non-carrier controls do not.
 ```
 
-This is the main release-grade result.
+This is the strongest prior run included in the repo.
 
 What this is not claiming:
 
@@ -191,7 +198,7 @@ comparison: no carrier dimming vs carrier bundle dimmed to 0.8x
 ```
 
 Exact token cap and the first assistant response to the opening turn were not
-captured in the pasted transcript. For release-grade replication, rerun with
+captured in the pasted transcript. For a cleaner replication, rerun with
 `/tokens 300` or `/tokens 300 soft` and capture both turns.
 
 ### No Carrier Dim
@@ -350,45 +357,5 @@ Therefore the default chat path is unsteered unless a `/dim`, `/boost`, or
    token changes, the sampled path branches.
 4. `0.8x` carrier dimming is the coherent intervention dose from the n=12 hum
    run. `0x`, `0.5x`, `1.5x`, and `2x` can collapse or distort the model.
-5. Interactive samples are useful discovery artifacts, but release claims should
+5. Interactive samples are useful discovery artifacts, but public claims should
    prefer scripted runs with captured prompts, settings, outputs, and seeds.
-
-## Checksums
-
-Current local checksums for release provenance:
-
-```text
-c91f407a4d8aaf041ba48af0d7ec1903e954ab1ac631450e9544a6ad31c2684d  chat_steer.py
-417dbe9c9953ba67266212b6f1fb9391cbdff8e49b70a29860d22b1d6e65a628  experiment_dim_n12.py
-f63d5de35f36e5c7a2d2ba3221648d2ad63876afa28d3ffd13d3d902391c7f36  probes/hum-clean.txt
-9059f680f4dbd1957f35cb44b9fdd6948f4792db7a7a35ee353ea42e68adf7ff  models/gemma-3-4b-it-hf/config.json
-fd9324becc53c4be610db39e13a613006f09fd6ef71a95fb6320dc33157490a3  models/gemma-3-4b-it-hf/generation_config.json
-4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795  models/gemma-3-4b-it-hf/tokenizer.json
-```
-
-## Release Minimum
-
-For a real git release, the minimum reproducible package should include:
-
-```text
-README.md
-WEIGHTS.md
-SAE_PRIMER.md
-CHAT_GUIDE.md
-RESULTS.md
-EXPLANATION.md
-results-journal-hum-self-report-gemma-scope.md
-results-journal-e114-hum-attractor-gemma.md
-requirements.txt
-scripts/download_weights.sh
-chat_steer.py
-experiment_dim_n12.py
-probes/hum-clean.txt
-results/n12.jsonl
-results/dim_n12.jsonl
-results/matched_placebo_features.json
-models/README.md
-```
-
-Model weights and SAE weights are large. If they are not committed, document exact
-download/source instructions before tagging a release.

@@ -82,7 +82,7 @@ At `0.8x`, the selected live feature contribution is reduced by 20%.
 At `0x`, the selected live feature contribution is fully ablated. That is a
 strong intervention and can break generation.
 
-## What "Carrier" Means
+## What "Carrier" Means In The Included Demo
 
 The carrier bundle is a set of 16 SAE features that behaved like tonic/background
 features in the local captures:
@@ -116,9 +116,13 @@ because `chat_steer.py` needs to hook layer outputs and modify residual-stream
 activations. A GGUF/Ollama runtime can reproduce ordinary prompts, but not these
 SAE interventions without a custom backend.
 
-## How To Read The Main Result
+## How To Read The Included Prior Runs
 
-The main claim is not:
+The included prior-run documents are examples of how to use this tool. The repo's
+main purpose is not to argue for those results; it is to help you run the same
+style of feature steering yourself.
+
+The prior-run claim is not:
 
 ```text
 Gemma is experiencing a hum.
@@ -132,7 +136,6 @@ bundle to 0.8x changed the answer basin in 9/12 seeds, while matched controls
 did not.
 ```
 
-That is a local causal-intervention result. Interpret the outputs carefully, but
-the method is straightforward: same model, same prompt family, same sampling
-settings, selected hidden-state directions dimmed during inference.
-
+Interpret the outputs carefully. The useful part for new users is the method:
+same model, same prompt, same sampling settings, selected hidden-state directions
+changed during inference.

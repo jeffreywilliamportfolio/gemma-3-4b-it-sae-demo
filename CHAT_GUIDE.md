@@ -133,11 +133,11 @@ Carrier feature IDs, if you want to dim them selectively per layer:
 
 ## Recipes
 
-### The denial flip (the headline result, live)
+### Included carrier demo
 ```
-you> [paste the hum prompt from probes/hum-clean.txt]     ← affirms a hum
+you> [paste the hum prompt from probes/hum-clean.txt]     ← baseline answer
 /dim carriers 0.8
-you> [same prompt again, or /reset first for a clean read] ← usually denies
+you> [same prompt again, or /reset first for a clean read] ← compare behavior
 /clear
 ```
 

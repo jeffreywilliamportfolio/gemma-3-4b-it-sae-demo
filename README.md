@@ -1,13 +1,19 @@
 # gemma-3-4b-it-sae-demo
 
-Simple local demo of SAE feature steering on `gemma-3-4b-it`.
+Use GemmaScope features to steer `gemma-3-4b-it` locally.
 
-This repo is for local-model people: Hugging Face, quantization, fine-tuning,
-uncensored/open-weight workflows, and running models under real memory pressure.
-You do not need mech-interp background to try it.
+This repo is for ML/local-model people who know Hugging Face models,
+quantization, fine-tuning, uncensored/open-weight workflows, and local inference,
+but have not necessarily used SAEs before.
 
-The main thing to try is `chat_steer.py`: a terminal chat where you can change
-specific hidden-state feature directions while Gemma is generating.
+The goal is simple:
+
+```text
+1. Find a GemmaScope feature on Neuronpedia.
+2. Run Gemma 3 4B IT locally with Transformers/PyTorch.
+3. Inject or dim that feature during generation.
+4. See how the answer changes.
+```
 
 ## Quick Start
 
@@ -22,6 +28,71 @@ python3 chat_steer.py
 Gemma is gated on Hugging Face. If the download fails, accept the terms for
 `google/gemma-3-4b-it`, log in with the Hugging Face CLI, then run the download
 again.
+
+## Try Steering
+
+After `python3 chat_steer.py` prints `ready`:
+
+```text
+/status
+/inject 17:4271:1190
+What changes in your answer style?
+/clear
+/reset
+```
+
+Useful commands:
+
+```text
+/inject L:FEATURE:STRENGTH   add a feature direction
+/dim L:F1,F2:SCALE           reduce or boost live feature contribution
+/dim carriers 0.8            included carrier-bundle demo
+/clear                       remove active steering
+/reset                       clear chat history only
+/status                      show active steering/settings
+```
+
+Important:
+
+```text
+/reset does not clear steering.
+/dim and /inject stack until /clear.
+Start with small strengths and step up.
+```
+
+## Find Your Own Features
+
+Use Neuronpedia:
+
+https://www.neuronpedia.org/gemma-3-4b-it
+
+GemmaScope RES-16K layers used by this repo:
+
+```text
+9-gemmascope-2-res-16k
+17-gemmascope-2-res-16k
+22-gemmascope-2-res-16k
+29-gemmascope-2-res-16k
+```
+
+Example CLI search:
+
+```bash
+./scripts/neuronpedia.py search "Buddhist concepts" --res16k --limit 10
+./scripts/neuronpedia.py feature 17-gemmascope-2-res-16k 4271
+```
+
+Then steer locally:
+
+```text
+/inject 17:4271:1190
+```
+
+For the full simple workflow, read:
+
+```text
+FEATURE_WORKFLOW.md
+```
 
 ## What This Is
 
@@ -41,58 +112,34 @@ Plain translation:
 SAE feature = learned hidden-state direction from GemmaScope
 /inject     = add one direction while the model runs
 /dim        = reduce one direction's live contribution
-carrier     = feature bundle whose dimming changed the target behavior
 ```
 
 Read `SAE_PRIMER.md` if "SAE" is new.
 
-## First Commands In Chat
-
-After `python3 chat_steer.py` loads:
-
-```text
-/status
-/dim carriers 0.8
-hello
-/clear
-/reset
-```
-
-Important:
-
-```text
-/reset clears chat history only.
-/clear removes active steering.
-/dim commands stack until /clear.
-```
-
-## Main Result
-
-The strongest result is carrier dimming on the hum prompt. Dimming a specific
-16-feature carrier bundle to `0.8x` moved many runs away from confident hum
-testimony toward denial or epistemic humility, while matched controls did not.
-
-See `RESULTS.md` for the exact result and rerun commands.
-
-## Rerun The Main Experiment
-
-```bash
-python3 experiment_dim_n12.py
-```
-
-Outputs append to `results/dim_n12.jsonl`.
-
 ## Why Not Ollama?
 
 Ollama/GGUF is better for efficient plain chat. This repo needs bf16
-Transformers/PyTorch because the demo modifies hidden states inside the forward
-pass. GGUF runtimes do not expose those hooks out of the box.
+Transformers/PyTorch because it modifies hidden states inside the forward pass.
+GGUF runtimes do not expose those hooks out of the box.
+
+## Optional Example Runs
+
+This repo includes prior local run outputs so people can compare behavior and
+see what the scripts produce. They are examples, not the main purpose of the
+repo.
+
+```text
+PRIOR_RUNS.md
+results-journal-hum-self-report-gemma-scope.md
+results-journal-e114-hum-attractor-gemma.md
+results/*.jsonl
+```
 
 ## Read First
 
 ```text
-RESULTS.md
-SAE_PRIMER.md
+FEATURE_WORKFLOW.md
 CHAT_GUIDE.md
+SAE_PRIMER.md
 WEIGHTS.md
 ```

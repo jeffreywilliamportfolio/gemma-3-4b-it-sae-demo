@@ -1,7 +1,8 @@
 # Neuronpedia API Workflow
 
-This project uses `NEURONPEDIA_API_KEY` from `.env`. Do not print the key; the
-local client sends it as the `x-api-key` header.
+This project can use `NEURONPEDIA_API_KEY` from `.env`, but basic feature/search
+workflows should be tried without a key first. If you do use a key, do not print
+it; the local client sends it as the `x-api-key` header.
 
 ## What Works For Gemma 3 4B IT
 
@@ -57,8 +58,8 @@ Fetch the full raw dashboard JSON if needed:
 Use Neuronpedia to rank and inspect candidate features. Use local GemmaScope SAE
 weights and Python/Transformers for actual intervention runs.
 
-Current best first steering candidate:
+Simple first steering candidates:
 
-- `gemma-3-4b-it / 29-gemmascope-2-res-16k / 3959`
-- Description: `golf`
-- Hook: `blocks.29.hook_resid_post`
+- `17-gemmascope-2-res-16k / 4271` - Buddhist concepts
+- `17-gemmascope-2-res-16k / 42` - soft sounds
+- `29-gemmascope-2-res-16k / 3959` - golf

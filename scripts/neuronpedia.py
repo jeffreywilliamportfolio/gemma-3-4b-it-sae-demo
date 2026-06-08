@@ -34,20 +34,19 @@ def load_env(path: Path = Path(".env")) -> None:
         os.environ.setdefault(key, value)
 
 
-def api_key() -> str:
+def api_key() -> str | None:
     load_env()
-    key = os.environ.get("NEURONPEDIA_API_KEY")
-    if not key:
-        raise SystemExit("NEURONPEDIA_API_KEY is not set in .env or the environment")
-    return key
+    return os.environ.get("NEURONPEDIA_API_KEY")
 
 
 def request_json(method: str, path: str, body: dict[str, Any] | None = None) -> Any:
     data = None if body is None else json.dumps(body).encode("utf-8")
     headers = {
         "Content-Type": "application/json",
-        "x-api-key": api_key(),
     }
+    key = api_key()
+    if key:
+        headers["x-api-key"] = key
     req = urllib.request.Request(
         API_BASE + path,
         data=data,
