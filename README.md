@@ -183,3 +183,8 @@ docs/CHAT_GUIDE.md
 docs/SAE_PRIMER.md
 docs/WEIGHTS.md
 ```
+
+## License
+
+Code in this repo is MIT licensed. Model and SAE weights are downloaded from
+Hugging Face and remain under their respective upstream licenses/terms.
