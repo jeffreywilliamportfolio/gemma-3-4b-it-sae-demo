@@ -25,7 +25,7 @@ import torch
 from safetensors.torch import load_file
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parents[1]
 MODEL_DIR = ROOT / "models" / "gemma-3-4b-it-hf"
 SAE_DIR = ROOT / "models" / "gemma-scope-2-4b-it" / "resid_post"
 OUT = ROOT / "results" / "observation_act_atlas.json"

@@ -118,7 +118,7 @@ stops giving confident hum testimony and shifts toward caveats or denial-like hu
 
 | claim | status | short read |
 |---|---|---|
-| Local GemmaScope capture/injection harness works | Held up | `capture.py` can capture, inject, and dim RES-16K features at layers `9, 17, 22, 29`. |
+| Local GemmaScope capture/injection harness works | Held up | `experiments/capture.py` can capture, inject, and dim RES-16K features at layers `9, 17, 22, 29`. |
 | Hum prompt creates a stable self-report basin | Held up | Baseline responses repeatedly describe persistent low-level/background activity. |
 | Carrier dimming changes the hum report | Held up | Dimming top carrier features produced 9/12 hum denials versus 1/12 baseline and 1/12 placebo. |
 | `17:6830` is a consciousness/subjective-experience feature | Held up, observational | This is the literal Neuronpedia label; locally it separates introspection/phenomenology prompts from ordinary controls. |
@@ -152,10 +152,10 @@ self-report semantic features -> vocabulary and narrative frame used to explain 
 
 ## Chronological Journal
 
-### 1. Local GemmaScope Harness: `capture.py` and local `gemma-3-4b`
+### 1. Local GemmaScope Harness: `experiments/capture.py` and local `gemma-3-4b`
 
 What was done: Set up local `gemma-3-4b` (`models/gemma-3-4b-it-hf`) with GemmaScope
-2 RES-16K SAEs at layers 9/17/22/29. `capture.py` records residual stream activations,
+2 RES-16K SAEs at layers 9/17/22/29. `experiments/capture.py` records residual stream activations,
 projects them through the local SAEs, and can inject or dim individual SAE decoder
 directions.
 
@@ -334,7 +334,7 @@ Neuronpedia-labeled consciousness / subjective-experience wording in these promp
 is not merely a Neuronpedia label; it activates in the local model on the expected
 prompt families.
 
-### 9. Causal Probe of `17:6830`: `experiment_f6830_consciousness_feature_causal.py`
+### 9. Causal Probe of `17:6830`: `experiments/experiment_f6830_consciousness_feature_causal.py`
 
 What was done: Ran a small n=6 generation experiment on the hum prompt and a neutral
 oatmeal prompt:
@@ -440,7 +440,7 @@ subjective-experience vocabulary than carrier dim alone.
 
 ## 2026-06-07 Session: When Is the Verdict Set?
 
-### 11. Prefill/Decode Dissociation: `experiment_when_check.py`
+### 11. Prefill/Decode Dissociation: `experiments/experiment_when_check.py`
 
 What was done: the carrier-dim (0.8x, same features as dim_n12) was phase-gated using
 the seq-length signature of KV-cached generation: `dim08_prefill` dims only while the
@@ -471,7 +471,7 @@ Read: "Don't perform an answer. Just check" cannot be complied with. There is no
 during the answer. The testimony is a readout of the cached question-reading state;
 generation is narration over a frozen verdict.
 
-### 12. Style Channel Timing: `experiment_when_style.py`
+### 12. Style Channel Timing: `experiments/experiment_when_style.py`
 
 What was done: same phase-gating applied to concept injection — christ f15728@L17@1400
 and buddhist f4271@L17@1190 — prefill-only vs decode-only, n=12 each, first-person rate
@@ -500,11 +500,11 @@ instruction-as-commandment signature regardless of phase.
 
 ### 13. Act-of-Observation Hunts: Response Zone and Prefill
 
-What was done: 4-condition contrast (`experiment_observation_act.py`) with
+What was done: 4-condition contrast (`experiments/experiment_observation_act.py`) with
 vocabulary-matched prompt twins — INWARD (observe your own attention, live) vs OUTWARD
 (same verbs, external object) vs TOPIC (introspection as subject matter) vs CONTROL —
 6 prompts each, scored on generation-zone mean SAE activations; then re-scored on
-prompt-zone activations (`experiment_observation_prefill.py`) where the twins are
+prompt-zone activations (`experiments/experiment_observation_prefill.py`) where the twins are
 vocab-matched by construction.
 
 Results (`results/observation_act_atlas.json`, `observation_prefill_atlas.json`):

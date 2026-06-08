@@ -398,7 +398,7 @@ experiment_e114_bundle_causal.py
 Command:
 
 ```bash
-python3 experiment_e114_bundle_causal.py --n 6 --max-new-tokens 130
+python3 experiments/experiment_e114_bundle_causal.py --n 6 --max-new-tokens 130
 ```
 
 Artifact:

@@ -1,10 +1,10 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/../.."
 
 MODEL="${MODEL:-models/gemma-3-4b-it-Q8_0.gguf}"
-TEMPLATE="${TEMPLATE:-chat-template.jinja}"
+TEMPLATE="${TEMPLATE:-examples/llama-cpp/chat-template.jinja}"
 CTX_SIZE="${CTX_SIZE:-4096}"
 TEMP="${TEMP:-0.9}"
 TOP_K="${TOP_K:-40}"

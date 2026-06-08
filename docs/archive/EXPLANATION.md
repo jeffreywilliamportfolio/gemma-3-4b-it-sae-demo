@@ -20,7 +20,7 @@ Three pieces, all local:
    on recognizable concepts ("soft sounds," "Jesus Christ's teachings," "Buddhist
    concepts"). Google trained these and labeled them; the labels are browsable at
    [neuronpedia.org/gemma-3-4b-it](https://www.neuronpedia.org/gemma-3-4b-it).
-3. **The probe** — `capture.py` records the model's internal activity at layers
+3. **The probe** — `experiments/capture.py` records the model's internal activity at layers
    9/17/22/29 while it answers, and can also **inject** any feature: adding that
    concept's direction into the model's processing stream, so the model "has it on the
    mind" without it appearing anywhere in the text.
@@ -267,11 +267,11 @@ themselves are dimmed.)
 
 ```bash
 # one capture with injection (feature indices & labels: neuronpedia.org)
-python3 capture.py --prompt-file probes/hum-clean.txt --generate 170 \
+python3 experiments/capture.py --prompt-file probes/hum-clean.txt --generate 170 \
     --inject 17:15728:1400 --tag my-run
 
 # the n=12 experiment (~15 min)
-python3 experiment_n12.py     # results stream to results/n12.jsonl
+python3 experiments/experiment_n12.py     # results stream to results/n12.jsonl
 ```
 
 Raw data: `captures/*.json` (per-run feature tables + responses),

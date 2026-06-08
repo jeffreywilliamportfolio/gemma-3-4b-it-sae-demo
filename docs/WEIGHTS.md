@@ -51,6 +51,7 @@ git clone https://github.com/jeffreywilliamportfolio/gemma-3-4b-it-sae-demo.git
 cd gemma-3-4b-it-sae-demo
 python3 -m pip install -r requirements.txt
 scripts/download_weights.sh
+python3 scripts/check_setup.py
 ```
 
 If needed, create `.env` from `.env.example` and set `HF_TOKEN`. Do not commit
@@ -58,6 +59,9 @@ If needed, create `.env` from `.env.example` and set `HF_TOKEN`. Do not commit
 
 Gemma is gated on Hugging Face. Log in and accept the model terms for
 `google/gemma-3-4b-it` before downloading.
+
+If `scripts/check_setup.py` passes after the download, the repo should be ready
+to run with `python3 chat_steer.py`.
 
 ## Expected Layout
 

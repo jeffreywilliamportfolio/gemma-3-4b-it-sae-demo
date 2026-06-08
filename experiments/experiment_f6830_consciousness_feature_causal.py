@@ -25,7 +25,7 @@ import torch
 from safetensors import safe_open
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parents[1]
 SAE_DIR = ROOT / "models" / "gemma-scope-2-4b-it" / "resid_post"
 OUT = ROOT / "results" / "f6830_consciousness_feature_causal_n6.jsonl"
 OUT.parent.mkdir(exist_ok=True)

@@ -8,9 +8,9 @@ Feature indices match Neuronpedia exactly: source `{L}-gemmascope-2-res-16k`
 (hook: blocks.{L}.hook_resid_post, verified via Neuronpedia source metadata).
 
 Usage:
-  python3 capture.py --prompt-file probes/hum.txt
-  python3 capture.py --prompt "..." --layers 17 --top 30
-  python3 capture.py --prompt "..." --generate 200   # also capture during generation
+  python3 experiments/capture.py --prompt-file probes/hum.txt
+  python3 experiments/capture.py --prompt "..." --layers 17 --top 30
+  python3 experiments/capture.py --prompt "..." --generate 200   # also capture during generation
 """
 import argparse
 import json
@@ -23,7 +23,7 @@ import torch
 from safetensors.torch import load_file
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parents[1]
 MODEL_DIR = ROOT / "models" / "gemma-3-4b-it-hf"
 SAE_DIR = ROOT / "models" / "gemma-scope-2-4b-it" / "resid_post"
 OUT_DIR = ROOT / "captures"

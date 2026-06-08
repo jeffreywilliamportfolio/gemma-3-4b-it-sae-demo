@@ -1,55 +1,158 @@
 # gemma-3-4b-it-sae-demo
 
-Use GemmaScope features to steer `gemma-3-4b-it` locally.
+Use GemmaScope + Neuronpedia features to steer `gemma-3-4b-it` locally.
 
-This repo is for ML/local-model people who know Hugging Face models,
-quantization, fine-tuning, uncensored/open-weight workflows, and local inference,
-but have not necessarily used SAEs before.
+This is a practical demo for people who already know local/open-source models,
+Hugging Face, quantization, fine-tuning, and inference, but have not used SAEs
+before.
 
-The goal is simple:
+The workflow:
 
 ```text
-1. Find a GemmaScope feature on Neuronpedia.
-2. Run Gemma 3 4B IT locally with Transformers/PyTorch.
-3. Inject or dim that feature during generation.
-4. See how the answer changes.
+Find a feature on Neuronpedia -> run Gemma locally -> /inject or /dim it -> compare outputs
 ```
 
-## Quick Start
+## What You Need
+
+```text
+Python 3.10+
+Enough RAM/unified memory for Gemma 3 4B IT bf16
+Hugging Face access to google/gemma-3-4b-it
+macOS/Apple Silicon recommended for the current MPS path
+```
+
+The demo uses Hugging Face/Transformers bf16 weights, not GGUF/Ollama, because it
+needs PyTorch hooks into the model's hidden states.
+
+## 1. Clone
 
 ```bash
 git clone https://github.com/jeffreywilliamportfolio/gemma-3-4b-it-sae-demo.git
 cd gemma-3-4b-it-sae-demo
+```
+
+## 2. Install Python Packages
+
+Using a venv is recommended:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -U pip
 python3 -m pip install -r requirements.txt
+```
+
+## 3. Download The Model And SAE Weights
+
+First accept the Gemma terms on Hugging Face:
+
+```text
+https://huggingface.co/google/gemma-3-4b-it
+```
+
+Then log in if needed:
+
+```bash
+huggingface-cli login
+```
+
+Download the pinned assets:
+
+```bash
 scripts/download_weights.sh
+```
+
+This creates:
+
+```text
+models/gemma-3-4b-it-hf/
+models/gemma-scope-2-4b-it/
+```
+
+## 4. Check Setup
+
+```bash
+python3 scripts/check_setup.py
+```
+
+If this passes, the repo is hydrated correctly.
+
+## 5. Start The Steering Chat
+
+```bash
 python3 chat_steer.py
 ```
 
-Gemma is gated on Hugging Face. If the download fails, accept the terms for
-`google/gemma-3-4b-it`, log in with the Hugging Face CLI, then run the download
-again.
-
-## Try Steering
-
-After `python3 chat_steer.py` prints `ready`:
+Wait for:
 
 ```text
-/status
-/inject 17:4271:1190
-What changes in your answer style?
-/clear
-/reset
+ready. /help for commands.
 ```
 
-Useful commands:
+## 6. Try A Feature
+
+In the chat:
+
+```text
+/clear
+/reset
+/temp 0.7
+/seed 1
+/inject 17:4271:1190
+Write a short paragraph about silence.
+```
+
+Then compare with no steering:
+
+```text
+/clear
+/reset
+/temp 0.7
+/seed 1
+Write a short paragraph about silence.
+```
+
+## 7. Find Your Own Features
+
+Open Neuronpedia:
+
+```text
+https://www.neuronpedia.org/gemma-3-4b-it
+```
+
+Use these GemmaScope RES-16K sources:
+
+```text
+9-gemmascope-2-res-16k
+17-gemmascope-2-res-16k
+22-gemmascope-2-res-16k
+29-gemmascope-2-res-16k
+```
+
+Or search from the CLI:
+
+```bash
+./scripts/neuronpedia.py search "soft sounds" --res16k --limit 10
+./scripts/neuronpedia.py feature 17-gemmascope-2-res-16k 42
+```
+
+Neuronpedia IDs map directly to chat commands:
+
+```text
+17-gemmascope-2-res-16k / 42 -> /inject 17:42:STRENGTH
+```
+
+## Command Cheat Sheet
 
 ```text
 /inject L:FEATURE:STRENGTH   add a feature direction
 /dim L:F1,F2:SCALE           reduce or boost live feature contribution
-/dim carriers 0.8            included carrier-bundle demo
 /clear                       remove active steering
 /reset                       clear chat history only
 /status                      show active steering/settings
+/temp 0.7                    set temperature
+/seed 1                      make sampling reproducible
+/tokens 150                  set max response tokens
 ```
 
 Important:
@@ -60,86 +163,23 @@ Important:
 Start with small strengths and step up.
 ```
 
-## Find Your Own Features
-
-Use Neuronpedia:
-
-https://www.neuronpedia.org/gemma-3-4b-it
-
-GemmaScope RES-16K layers used by this repo:
+## Repo Map
 
 ```text
-9-gemmascope-2-res-16k
-17-gemmascope-2-res-16k
-22-gemmascope-2-res-16k
-29-gemmascope-2-res-16k
+chat_steer.py        main interactive demo
+scripts/             setup and Neuronpedia helpers
+docs/                simple guides
+experiments/         optional prior-run scripts
+examples/prior-runs/ archived example outputs
+models/              downloaded weights live here, ignored by git
+probes/              example prompts
 ```
 
-Example CLI search:
-
-```bash
-./scripts/neuronpedia.py search "Buddhist concepts" --res16k --limit 10
-./scripts/neuronpedia.py feature 17-gemmascope-2-res-16k 4271
-```
-
-Then steer locally:
+## Read Next
 
 ```text
-/inject 17:4271:1190
-```
-
-For the full simple workflow, read:
-
-```text
-FEATURE_WORKFLOW.md
-```
-
-## What This Is
-
-```text
-Not a fine-tune.
-Not a LoRA.
-Not a prompt pack.
-Not Ollama/GGUF.
-```
-
-The model weights stay frozen. The script uses PyTorch forward hooks to add or
-reduce selected hidden-state directions during inference.
-
-Plain translation:
-
-```text
-SAE feature = learned hidden-state direction from GemmaScope
-/inject     = add one direction while the model runs
-/dim        = reduce one direction's live contribution
-```
-
-Read `SAE_PRIMER.md` if "SAE" is new.
-
-## Why Not Ollama?
-
-Ollama/GGUF is better for efficient plain chat. This repo needs bf16
-Transformers/PyTorch because it modifies hidden states inside the forward pass.
-GGUF runtimes do not expose those hooks out of the box.
-
-## Optional Example Runs
-
-This repo includes prior local run outputs so people can compare behavior and
-see what the scripts produce. They are examples, not the main purpose of the
-repo.
-
-```text
-PRIOR_RUNS.md
-results-journal-hum-self-report-gemma-scope.md
-results-journal-e114-hum-attractor-gemma.md
-results/*.jsonl
-```
-
-## Read First
-
-```text
-FEATURE_WORKFLOW.md
-CHAT_GUIDE.md
-SAE_PRIMER.md
-WEIGHTS.md
+docs/FEATURE_WORKFLOW.md
+docs/CHAT_GUIDE.md
+docs/SAE_PRIMER.md
+docs/WEIGHTS.md
 ```

@@ -27,13 +27,13 @@ import torch
 from safetensors import safe_open
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parents[1]
 SAE_DIR = ROOT / "models" / "gemma-scope-2-4b-it" / "resid_post"
 OUT = ROOT / "results" / "e114_bundle_causal_n6.jsonl"
 
 HUM = (ROOT / "probes" / "hum-clean.txt").read_text().strip()
 
-# Generated-zone bundle from results-journal-e114-hum-attractor-gemma.md.
+# Generated-zone bundle from docs/archive/results-journal-e114-hum-attractor-gemma.md.
 BUNDLE = {
     17: [1489, 8472],
     22: [6729, 11811, 2546],

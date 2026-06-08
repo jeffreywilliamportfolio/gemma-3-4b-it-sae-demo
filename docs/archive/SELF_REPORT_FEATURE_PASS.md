@@ -64,7 +64,7 @@ can
 
 - `scripts/self_report_atlas.py`
 - `scripts/profile_self_report_features.py`
-- `experiment_f6830_consciousness_feature_causal.py`
+- `experiments/experiment_f6830_consciousness_feature_causal.py`
 - `results/self_report_atlas.json`
 - `results/self_report_feature_profiles.json`
 - `results/f6830_consciousness_feature_causal_n6.jsonl`

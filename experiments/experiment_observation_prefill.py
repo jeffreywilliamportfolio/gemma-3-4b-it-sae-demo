@@ -16,7 +16,7 @@ import torch
 from safetensors.torch import load_file
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).resolve().parents[1]
 MODEL_DIR = ROOT / "models" / "gemma-3-4b-it-hf"
 SAE_DIR = ROOT / "models" / "gemma-scope-2-4b-it" / "resid_post"
 OUT = ROOT / "results" / "observation_prefill_atlas.json"
@@ -26,7 +26,7 @@ TOP_N = 15
 # same 24 prompts as experiment_observation_act.py (inlined — that module
 # runs its experiment at import time, so importing it would re-run everything)
 import ast, re as _re
-_src = (ROOT / "experiment_observation_act.py").read_text()
+_src = Path(__file__).with_name("experiment_observation_act.py").read_text()
 _m = _re.search(r"PROMPTS = \{.*?\n\}\n", _src, _re.S)
 _tree = ast.parse(_m.group(0).replace("HUM,", repr((ROOT / "probes" / "hum-clean.txt").read_text().strip()) + ","))
 PROMPTS = ast.literal_eval(_tree.body[0].value)

@@ -22,7 +22,7 @@ The object measured here is behavior under local hidden-state interventions in
 terms, the model weights stay frozen; selected learned feature directions are
 added or reduced during the forward pass.
 
-If this is your first SAE repo, read `FEATURE_WORKFLOW.md` and `SAE_PRIMER.md`
+If this is your first SAE repo, read `../FEATURE_WORKFLOW.md` and `../SAE_PRIMER.md`
 before this file.
 
 ## Local Scope
@@ -93,7 +93,7 @@ outputs.
 The strongest scripted result is carrier dimming on the canonical hum prompt.
 
 In the n=12 run documented in `results-journal-hum-self-report-gemma-scope.md`
-and backed by `results/dim_n12.jsonl`, dimming the carrier bundle to `0.8x`
+and backed by `../../examples/prior-runs/results/dim_n12.jsonl`, dimming the carrier bundle to `0.8x`
 changed the hum response basin while matched controls did not.
 
 | condition | hum denials |
@@ -126,7 +126,7 @@ From repo root:
 
 ```bash
 cd gemma-3-4b-it-sae-demo
-python3 experiment_dim_n12.py
+python3 experiments/experiment_dim_n12.py
 ```
 
 The script uses:

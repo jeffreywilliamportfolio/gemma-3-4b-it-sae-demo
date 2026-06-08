@@ -1,6 +1,6 @@
 # Feature Workflow
 
-This is the simple loop:
+This is the simple loop used by the demo:
 
 ```text
 Neuronpedia -> pick feature -> local chat -> inject/dim -> compare output
