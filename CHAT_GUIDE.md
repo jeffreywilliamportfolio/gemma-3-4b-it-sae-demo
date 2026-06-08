@@ -3,6 +3,11 @@
 Interactive terminal chat with gemma-3-4b-it where you can dim, boost, and inject
 GemmaScope SAE features mid-conversation and watch the behavior change in real time.
 
+If you know local LLMs but not SAEs: this is inference-time activation steering.
+No model weights are updated. `/inject` adds a learned hidden-state direction;
+`/dim` reduces a learned direction's live contribution. Read `SAE_PRIMER.md` for
+the short version.
+
 ## Start
 
 ```bash

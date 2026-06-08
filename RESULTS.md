@@ -7,9 +7,16 @@ This file is the top-level reproducibility entry point for the local
 scripted runs, preserves the 2026-06-08 interactive observation, and gives the
 minimal commands needed to rerun both.
 
-This is a release/results file, not an ontological claim. The object measured here
-is behavior under local residual-stream interventions in `gemma-3-4b-it` with
-GemmaScope 2 RES-16K sparse autoencoder features.
+This is a release/results file, not an ontological claim. The target reader is
+expected to understand local model inference, sampling, Hugging Face weights, and
+possibly quantization/fine-tuning. No SAE background is assumed.
+
+The object measured here is behavior under local hidden-state interventions in
+`gemma-3-4b-it` with GemmaScope 2 RES-16K sparse autoencoder features. In plain
+terms, the model weights stay frozen; selected learned feature directions are
+added or reduced during the forward pass.
+
+If this is your first SAE repo, read `SAE_PRIMER.md` before the result tables.
 
 ## Local Scope
 
@@ -97,6 +104,14 @@ matched non-carrier controls do not.
 ```
 
 This is the main release-grade result.
+
+What this is not claiming:
+
+```text
+The result does not prove experience, consciousness, or inner perception.
+It shows that a specific hidden-state feature bundle is causally entangled with
+this answer basin under this prompt family.
+```
 
 ## Scripted Reproduction
 
@@ -358,6 +373,7 @@ For a real git release, the minimum reproducible package should include:
 ```text
 README.md
 WEIGHTS.md
+SAE_PRIMER.md
 CHAT_GUIDE.md
 RESULTS.md
 EXPLANATION.md

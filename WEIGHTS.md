@@ -7,6 +7,11 @@ download script.
 This keeps normal git usable without Git LFS while still making the project
 reproducible for someone with enough local GPU/unified-memory headroom.
 
+This repo intentionally uses bf16 Hugging Face/Transformers weights rather than
+GGUF/Ollama for the steering runs. The scripts need PyTorch forward hooks into
+layer hidden states. GGUF is fine for ordinary chat, but it is not enough to
+reproduce the SAE interventions here.
+
 ## Required Sources
 
 Gemma 3 4B instruction-tuned bf16 weights:
